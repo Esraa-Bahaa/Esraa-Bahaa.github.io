@@ -466,3 +466,33 @@ footer p {
 .contact-links a:hover {
     text-decoration: underline;
 }
+
+/* CONTACT CARD */
+.contact-card {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    max-width: 500px;
+    margin: 20px auto;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+/* CONTACT TEXT */
+.contact-card p {
+    margin: 12px 0;
+    font-size: 16px;
+    color: #333;
+}
+
+/* LINKS STYLE */
+.contact-card a {
+    color: #0077b5;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* HOVER EFFECT */
+.contact-card a:hover {
+    text-decoration: underline;
+}
