@@ -3,46 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!--💡UPDATE: Change the title to your name-->
-    <title>Esraa Bahaa | Data Analysis Portfolio</title>
-      
-    <!--💡UPDATE: Add your favicon here. You can generate one at realfavicongenerator.net-->
+    <meta name="description" content="Esraa Bahaa's portfolio showcasing Business Intelligence and Data Analysis projects.">
+    <title>Esraa Bahaa | BI Developer & Data Analyst</title>
+
     <link rel="icon" type="image/png" href="/favicon-32x32.png">
     <link rel="apple-touch-icon" href="/favicon-32x32.png">
-    
-    <!-- Google Fonts for Elegant Typography -->
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
-    
-    <!-- Font Awesome for Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    
-    <!-- Your Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
-<!-- HEADER SECTION -->
 <header>
     <div class="container">
-        <!--💡UPDATE: Change to your name and title-->
         <h1>Esraa Bahaa</h1>
-        <p>Junior Data Analyst | SQL | Power BI | Excel | Python</p>
+        <p>Aspiring BI Developer | Data Analyst</p>
         <div class="social-links">
-            <!--💡UPDATE: Add your social media links and CV file-->
-            <a href="https://www.linkedin.com/in/esraa-bahaa/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-            <a href="https://github.com/Esraa-Bahaa" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
-            <a href="assets/Esraa_Bahaa_CV.pdf" download title="Download CV"><i class="fas fa-file-arrow-down"></i></a>
-            <a href="mailto:esraabahaa0102620@gmail.com" title="Email"> <i class="fas fa-envelope"></i> </a> 
-            <a href="tel:+201094196577" title="Phone"> <i class="fas fa-phone"></i> </a>
+            <a href="https://www.linkedin.com/in/esraa-bahaa/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/Esraa-Bahaa" target="_blank" rel="noopener noreferrer" aria-label="GitHub" title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="assets/Esraa_Bahaa_CV.pdf" download aria-label="Download CV" title="Download CV"><i class="fas fa-file-arrow-down"></i></a>
+            <a href="mailto:esraabahaa0102620@gmail.com" aria-label="Email" title="Email"><i class="fas fa-envelope"></i></a>
+            <a href="tel:+201094196577" aria-label="Phone" title="Phone"><i class="fas fa-phone"></i></a>
         </div>
     </div>
 </header>
 
-<!-- NAVIGATION -->
-<nav>
+<nav aria-label="Main navigation">
     <div class="container">
         <ul>
             <li><a href="#about">About</a></li>
@@ -53,138 +42,154 @@
     </div>
 </nav>
 
-<!-- ABOUT SECTION -->
 <section id="about" class="section">
     <div class="container">
         <h2>About Me</h2>
         <div class="about-content">
-            <!--💡UPDATE: Change the image to your own profile photo in assets/images/-->
-            <img src="assets/images/portfolio profile pic.jpg" alt="Your Name" class="profile-photo">
+            <img src="assets/images/portfolio profile pic.jpg" alt="Esraa Bahaa" class="profile-photo">
             <div class="about-text">
-                <!--💡UPDATE: Write your own 'About Me' text here-->
-                <p> Communications Engineering student and DEPI Data Analysis trainee focused on Data Analysis and Business Intelligence.</p>
-                <p>Skilled in Python, SQL, Excel, and Power BI, with hands-on experience in data cleaning, dashboard creation, and reporting. Seeking internships and entry-level opportunities in data analytics.</p>
+                <p>ECE student with a growing focus on Business Intelligence and Data Analysis.</p>
+                <p>Through DEPI training and hands-on projects, I've gained practical experience in data cleaning, SQL analysis, data modeling, and developing interactive dashboards using Power BI, Excel, and Python.</p>
+                <p>I'm currently seeking internship and entry-level opportunities to apply my skills and grow as a BI professional.</p>
             </div>
         </div>
     </div>
 </section>
 
-<!-- PROJECTS SECTION -->
 <section id="projects" class="section">
     <div class="container">
         <h2>My Projects</h2>
         <div class="projects-grid">
 
-            <!--💡UPDATE: Replace this with your own project. Add as many as you like!-->
-            <!-- Project 1 -->
-             <div class="project-card">
-                <!--💡UPDATE: Add a preview image of your project to assets/images/ -->
-                <img src="assets/images/Customer_Shopping.png" alt="Project One Preview">
+            <!-- Project 1: Olist E-Commerce -->
+            <article class="project-card">
+                <div class="project-carousel" data-carousel aria-label="Olist dashboard previews">
+                    <div class="carousel-viewport">
+                        <img class="carousel-image is-active"
+                             src="https://raw.githubusercontent.com/Esraa-Bahaa/Olist-E-Commerce-Data-Analytics-Project/main/images/Dashboard1.png"
+                             alt="Olist Power BI dashboard 1" loading="lazy">
+                        <img class="carousel-image"
+                             src="https://raw.githubusercontent.com/Esraa-Bahaa/Olist-E-Commerce-Data-Analytics-Project/main/images/Dashboard2.png"
+                             alt="Olist Power BI dashboard 2" loading="lazy">
+                        <img class="carousel-image"
+                             src="https://raw.githubusercontent.com/Esraa-Bahaa/Olist-E-Commerce-Data-Analytics-Project/main/images/Dashboard3.png"
+                             alt="Olist Power BI dashboard 3" loading="lazy">
+                    </div>
+                    <button class="carousel-arrow carousel-prev" type="button" aria-label="Previous dashboard" data-direction="-1">
+                        <i class="fas fa-chevron-left" aria-hidden="true"></i>
+                    </button>
+                    <button class="carousel-arrow carousel-next" type="button" aria-label="Next dashboard" data-direction="1">
+                        <i class="fas fa-chevron-right" aria-hidden="true"></i>
+                    </button>
+                    <span class="carousel-counter" aria-live="polite">1 / 3</span>
+                </div>
                 <div class="project-card-content">
-                    <h3>E-Commerce customer shopping behavior</h3>
-                    <p>Analyzed customer shopping behavior using Python, MySQL, and Power BI to identify spending patterns, customer segments, subscription trends, and product performance. Built an interactive dashboard and generated business insights to support data-driven marketing and customer retention strategies.</p>
+                    <h3>Olist E-Commerce Data Analytics</h3>
+                    <p>Analyzed 100K+ e-commerce orders to uncover insights into sales, customer behavior, delivery performance, and seller performance. Developed a Star Schema data model and built 3 interactive Power BI dashboards with advanced DAX measures.</p>
+                    <p class="project-tools"><strong>Tools:</strong> SQL · Power BI · DAX · Data Modeling</p>
                     <div class="project-buttons">
-                        <!--💡UPDATE: Add link to your project's code/documentation on GitHub-->
-                        <a href="https://github.com/Esraa-Bahaa/Customer-Shopping-Behavior-Analysis.git" target="_blank" class="btn">Documentation</a>
-                        <!--💡UPDATE: Add link to your live dashboard (e.g., Power BI, Tableau Public)
-                        <a href="[YOUR_LIVE_DASHBOARD_URL]" target="_blank" class="btn btn-secondary">View Dashboard</a> 
-                        -->
+                        <a href="https://github.com/Esraa-Bahaa/Olist-E-Commerce-Data-Analytics-Project" target="_blank" rel="noopener noreferrer" class="btn">Documentation</a>
                     </div>
                 </div>
-            </div>
+            </article>
 
-            <!-- Project 2 -->
-            <div class="project-card">
-                <img src="assets/images/HR_Dashboard.png" alt="Project Two Preview">
+            <!-- Project 2: Customer Shopping Behavior -->
+            <article class="project-card">
+                <img src="assets/images/Customer_Shopping.png" alt="Customer Shopping Behavior Power BI dashboard" loading="lazy">
                 <div class="project-card-content">
-                    <h3>HR Attendance</h3>
-                    <p>Developed an interactive Power BI dashboard to analyze employee attendance, work-from-home utilization, and sick leave trends. Used Power Query and DAX to create KPIs and uncover workforce attendance patterns that support HR decision-making.</p>
+                    <h3>Customer Shopping Behavior Analysis</h3>
+                    <p>Analyzed 3,900 customer transactions to explore purchasing patterns, customer segments, product performance, and subscription trends. Performed data cleaning and feature engineering, developed SQL business queries, and created an interactive Power BI dashboard.</p>
+                    <p class="project-tools"><strong>Tools:</strong> Python · Pandas · MySQL · Power BI</p>
                     <div class="project-buttons">
-                        <a href="https://github.com/Esraa-Bahaa/HR-Attendance-Analysis.git" target="_blank" class="btn">Documentation</a>
-                        <!--
-                        <a href="[YOUR_LIVE_DASHBOARD_URL]" target="_blank" class="btn btn-secondary">View Dashboard</a>
-                        -->
+                        <a href="https://github.com/Esraa-Bahaa/Customer-Shopping-Behavior-Analysis" target="_blank" rel="noopener noreferrer" class="btn">Documentation</a>
                     </div>
                 </div>
-            </div>
+            </article>
 
-            <!-- Project 3 -->
-            <div class="project-card">
-                <img src="assets/images/company_sales_analysis.png" alt="Project Three Preview">
+            <!-- Project 3: HR Attendance -->
+            <article class="project-card">
+                <img src="assets/images/HR_Dashboard.png" alt="HR Attendance Power BI dashboard" loading="lazy">
+                <div class="project-card-content">
+                    <h3>HR Attendance Analysis</h3>
+                    <p>Developed an interactive Power BI dashboard to monitor employee attendance, work-from-home utilization, and sick leave trends. Transformed the data using Power Query and created DAX measures to track key HR metrics.</p>
+                    <p class="project-tools"><strong>Tools:</strong> Power BI · Power Query · DAX · Excel</p>
+                    <div class="project-buttons">
+                        <a href="https://github.com/Esraa-Bahaa/HR-Attendance-Analysis" target="_blank" rel="noopener noreferrer" class="btn">Documentation</a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Project 4: Company Sales -->
+            <article class="project-card">
+                <img src="assets/images/company_sales_analysis.png" alt="Company Sales Analysis Excel dashboard" loading="lazy">
                 <div class="project-card-content">
                     <h3>Company Sales Analysis</h3>
-                    <p>Analyzed multi-year company sales data to identify trends, seasonal patterns, and key performance indicators. Built an Excel dashboard using PivotTables, PivotCharts, and functions such as VLOOKUP and IF.</p>
+                    <p>Built an Excel dashboard to analyze sales performance across products, cities, states, customers, and time. Used Power Query for data preparation and Power Pivot to build a structured Data Model.</p>
+                    <p class="project-tools"><strong>Tools:</strong> Excel · Power Query · Power Pivot · Data Modeling</p>
                     <div class="project-buttons">
-                        <!-- 
-                        <a href="[YOUR_GITHUB_PROJECT_URL]" target="_blank" class="btn">Documentation</a>
-                        <a href="[YOUR_LIVE_DASHBOARD_URL]" target="_blank" class="btn btn-secondary">View Dashboard</a>
-                        -->
+                        <a href="https://github.com/Esraa-Bahaa/Company-Sales-Analysis-Excel" target="_blank" rel="noopener noreferrer" class="btn">Documentation</a>
                     </div>
                 </div>
-            </div>
+            </article>
 
-            <!-- Project 4 
-            <div class="project-card">
-                <img src="assets/images/project-placeholder-4.jpg" alt="Project Four Preview">
+            <!-- Project 5: Leadership Readiness -->
+            <article class="project-card">
+                <img src="https://raw.githubusercontent.com/Esraa-Bahaa/leadership-readiness-analysis-excel/main/dashboard.png"
+                     alt="Leadership Readiness Analysis Excel dashboard" loading="lazy">
                 <div class="project-card-content">
-                    <h3>Project Title Four</h3>
-                    <p>A brief, one or two-sentence description of your project, what it does, and the tools you used.</p>
+                    <h3>Leadership Readiness Analysis</h3>
+                    <p>Analyzed the performance and leadership potential of 13 student activity members using Excel. Developed a dashboard to evaluate key performance indicators, compare skills, and identify high-potential members.</p>
+                    <p class="project-tools"><strong>Tools:</strong> Excel · Data Analysis · KPI Reporting</p>
                     <div class="project-buttons">
-                        <a href="[YOUR_GITHUB_PROJECT_URL]" target="_blank" class="btn">Documentation</a>
-                        <a href="[YOUR_LIVE_DASHBOARD_URL]" target="_blank" class="btn btn-secondary">View Dashboard</a>
+                        <a href="https://github.com/Esraa-Bahaa/leadership-readiness-analysis-excel" target="_blank" rel="noopener noreferrer" class="btn">Documentation</a>
                     </div>
                 </div>
-            </div>
-            -->
+            </article>
 
         </div>
     </div>
 </section>
 
-<!-- SKILLS SECTION -->
 <section id="skills" class="section">
     <div class="container">
         <h2>Technical Skillset</h2>
         <div class="skills-table">
-            
-            <!--💡UPDATE: Customize your skills in each category-->
-            <!-- Column 1: Data Visualization -->
+
             <div class="skill-column">
                 <div class="skill-header">
-                    <i class="fas fa-chart-pie"></i>
-                    <h3>Data Visualization</h3>
+                    <i class="fas fa-chart-pie" aria-hidden="true"></i>
+                    <h3>BI &amp; Data Visualization</h3>
                 </div>
                 <ul class="skill-list">
                     <li>Power BI</li>
+                    <li>DAX</li>
                     <li>Excel Dashboards</li>
                 </ul>
             </div>
 
-            <!-- Column 2: Data Analysis -->
             <div class="skill-column">
                 <div class="skill-header">
-                    <i class="fas fa-search-plus"></i>
+                    <i class="fas fa-magnifying-glass-chart" aria-hidden="true"></i>
                     <h3>Data Analysis</h3>
                 </div>
                 <ul class="skill-list">
-                    <li>SQL</li>
-                    <li>Advanced Excel</li>
+                    <li>SQL (MySQL)</li>
                     <li>Python (Pandas)</li>
+                    <li>Exploratory Data Analysis</li>
                 </ul>
             </div>
 
-            
-            <!-- Column 3: Data Modeling & ETL -->
             <div class="skill-column">
                 <div class="skill-header">
-                    <i class="fas fa-cogs"></i>
-                    <h3>Data Modeling & ETL</h3>
+                    <i class="fas fa-gears" aria-hidden="true"></i>
+                    <h3>Data Preparation &amp; Modeling</h3>
                 </div>
                 <ul class="skill-list">
-                    <li>Power Query (M)</li>
-                    <li>DAX</li>
-                    <li>Star Schema Design</li>
-                    <li>ETL Processes</li>
+                    <li>Power Query</li>
+                    <li>Power Pivot</li>
+                    <li>Data Modeling</li>
+                    <li>Data Cleaning</li>
+                    <li>ETL</li>
                 </ul>
             </div>
 
@@ -192,58 +197,24 @@
     </div>
 </section>
 
-<!-- CONTACT SECTION (LINKS ONLY - ATS/PORTFOLIO FRIENDLY) -->
 <section id="contact" class="section">
     <div class="container">
         <h2>Contact</h2>
-
-        <!--💡 Short intro text -->
-        <p>
-            Interested in collaborating, internships, or data projects?  
-            Feel free to reach out through the channels below.
-        </p>
-
-        <!-- CONTACT LINKS -->
+        <p class="contact-intro">Interested in collaborating, internships, or data projects? Feel free to reach out through the channels below.</p>
         <div class="contact-card">
-
-            <!--💡 UPDATE: Replace with your real email -->
-            <!-- mailto: opens user's email app -->
-            <p>
-                📧 Email: 
-                <a href="mailto:esraabahaa0102620@gmail.com">
-                    esraabahaa0102620@gmail.com
-                </a>
-            </p>
-
-            <!--💡 UPDATE: Replace with your LinkedIn profile link -->
-            <p>
-                🔗 LinkedIn: 
-                <a href="https://www.linkedin.com/in/esraa-bahaa/" target="_blank">
-                    linkedin.com/in/esraa-bahaa
-                </a>
-            </p>
-
-            <!--💡 UPDATE: Replace with your GitHub profile link -->
-            <p>
-                💻 GitHub: 
-                <a href="https://github.com/Esraa-Bahaa" target="_blank">
-                    github.com/Esraa-Bahaa
-                </a>
-            </p>
-
+            <p>📧 Email: <a href="mailto:esraabahaa0102620@gmail.com">esraabahaa0102620@gmail.com</a></p>
+            <p>🔗 LinkedIn: <a href="https://www.linkedin.com/in/esraa-bahaa/" target="_blank" rel="noopener noreferrer">linkedin.com/in/esraa-bahaa</a></p>
+            <p>💻 GitHub: <a href="https://github.com/Esraa-Bahaa" target="_blank" rel="noopener noreferrer">github.com/Esraa-Bahaa</a></p>
         </div>
     </div>
 </section>
 
-<!-- FOOTER -->
 <footer>
     <div class="container">
-        <!--💡UPDATE: Change the year and your name-->
         <p>&copy; 2026 Esraa Bahaa. All rights reserved.</p>
     </div>
 </footer>
 
 <script src="assets/js/main.js"></script>
-
 </body>
 </html>
